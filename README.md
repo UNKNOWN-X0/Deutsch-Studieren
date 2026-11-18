@@ -2,12 +2,12 @@
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML5-CSS3-orange)](https://developer.mozilla.org/)
-[![Version](https://img.shields.io/badge/version-V3.0-green.svg)](https://github.com/UNKNOWN-X0/DeutschStudieren/releases)
+[![Version](https://img.shields.io/badge/version-V3.0-green.svg)](https://github.com/UNKNOWN-X0/Deutsch-Studieren/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A browser-based German vocabulary trainer with typed answers, multiple choice, matching pairs, and performance-weighted word practice.
 
-**[Open German Words Practice](https://unknown-x0.github.io/DeutschStudieren/)**
+**[Open German Words Practice](https://unknown-x0.github.io/Deutsch-Studieren/)**
 
 ## Features
 
@@ -23,7 +23,7 @@ A browser-based German vocabulary trainer with typed answers, multiple choice, m
 
 ### Use the hosted app
 
-Open the [live app](https://unknown-x0.github.io/DeutschStudieren/), choose a vocabulary source, category or topic, direction, and practice mode, then select **Start Practice**. Progress is saved in the browser you use.
+Open the [live app](https://unknown-x0.github.io/Deutsch-Studieren/), choose a vocabulary source, category or topic, direction, and practice mode, then select **Start Practice**. Progress is saved in the browser you use.
 
 ### Run locally
 
