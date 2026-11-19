@@ -1,17 +1,17 @@
-# Graph Report - DeutschStudieren  (2026-10-26)
+# Graph Report - Deutsch-Studieren  (2026-11-19)
 
 ## Corpus Check
-- 15 files · ~32,134 words
+- 16 files · ~32,524 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 5 file(s) not represented in the graph (top: (none) 4, .css 1)
+- Unclassified: 4 file(s) not represented in the graph (top: (none) 3, .css 1)
 
 ## Summary
-- 117 nodes · 128 edges · 14 communities (10 shown, 4 thin omitted)
+- 128 nodes · 138 edges · 14 communities (11 shown, 3 thin omitted)
 - Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `274059c9`
+- Built from commit: `6f5164ce`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -23,7 +23,7 @@
 - Online Vocabulary API
 - Node Test Harness
 - Spaced Repetition
-- Practice Session Management
+- Roadmap
 - Multiple Choice Mode
 - Shared Session State
 - Matching Mode
@@ -32,32 +32,32 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `init()` - 8 edges
-2. `German vocabulary practice` - 6 edges
-3. `German Word Practice page` - 6 edges
-4. `Online topic-based vocabulary` - 5 edges
-5. `steps` - 4 edges
-6. `handleStart()` - 4 edges
-7. `newWord()` - 4 edges
-8. `fetchOnlineVocabulary()` - 4 edges
+2. `Roadmap` - 6 edges
+3. `German vocabulary practice` - 6 edges
+4. `German Word Practice page` - 6 edges
+5. `Online topic-based vocabulary` - 5 edges
+6. `fetchOnlineVocabulary()` - 4 edges
+7. `handleStart()` - 4 edges
+8. `newWord()` - 4 edges
 9. `Q: How should DeutschStudieren's architecture and graph cover its full learning journey, state, external services, and deployment?` - 4 edges
-10. `build` - 3 edges
+10. `steps` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `handleSubmit()` --indirect_call--> `newWord()`  [INFERRED]
   js/answers-and-progress.js → js/practice.js
-- `init()` --indirect_call--> `handleStart()`  [INFERRED]
-  js/setup.js → js/practice.js
 - `init()` --indirect_call--> `handleSubmit()`  [INFERRED]
   js/setup.js → js/answers-and-progress.js
 - `init()` --indirect_call--> `resetProgress()`  [INFERRED]
   js/setup.js → js/answers-and-progress.js
+- `init()` --indirect_call--> `handleStart()`  [INFERRED]
+  js/setup.js → js/practice.js
 - `Practice progress view` --conceptually_related_to--> `Local browser progress storage`  [INFERRED]
   index.html → README.md
 
 ## Import Cycles
 - None detected.
 
-## Communities (14 total, 4 thin omitted)
+## Communities (14 total, 3 thin omitted)
 
 ### Community 0 - "DOM and Progress State"
 Cohesion: 0.07
@@ -72,20 +72,24 @@ Cohesion: 0.14
 Nodes (13): runs-on, steps, jobs, build, name, branches, branches, name (+5 more)
 
 ### Community 3 - "Answer and Progress Flow"
-Cohesion: 0.29
-Nodes (8): handleSubmit(), resetProgress(), updateProgressDisplay(), hideProgressSection(), init(), populateCategories(), showProgressSection(), toggleSourceInputs()
+Cohesion: 0.21
+Nodes (12): handleSubmit(), resetProgress(), updateProgressDisplay(), handleStart(), newWord(), setupInputQuestion(), showModeSection(), hideProgressSection() (+4 more)
 
 ### Community 4 - "Online Vocabulary API"
 Cohesion: 0.48
 Nodes (6): fetchOnlineVocabulary(), fetchRelatedWords(), showOnlineStatus(), translateSingleWord(), translateWordsToGerman(), worker()
 
+### Community 5 - "Node Test Harness"
+Cohesion: 0.20
+Nodes (6): assert, de(), el(), fs, { test }, vm
+
 ### Community 6 - "Spaced Repetition"
 Cohesion: 0.47
 Nodes (4): getSRSWeight(), saveSRSData(), selectWordWithSRS(), updateSRS()
 
-### Community 7 - "Practice Session Management"
-Cohesion: 0.70
-Nodes (4): handleStart(), newWord(), setupInputQuestion(), showModeSection()
+### Community 7 - "Roadmap"
+Cohesion: 0.29
+Nodes (6): Direction, Later, Next, Not planned, Now, Roadmap
 
 ### Community 8 - "Multiple Choice Mode"
 Cohesion: 0.83
@@ -101,14 +105,12 @@ Nodes (4): Answer, Outcome, Q: How should DeutschStudieren's architecture and gr
 
 ## Knowledge Gaps
 - **4 isolated node(s):** `Accuracy, answer count, and streak display`, `Datamuse related-word service`, `MyMemory translation service`, `Performance-weighted spaced repetition`
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 57 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 67 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `init()` connect `Answer and Progress Flow` to `Practice Session Management`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `init()` (e.g. with `handleSubmit()` and `resetProgress()`) actually correct?**
   _`init()` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Accuracy, answer count, and streak display`, `Datamuse related-word service`, `MyMemory translation service` to the rest of the system?**

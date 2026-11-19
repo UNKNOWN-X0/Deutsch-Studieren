@@ -78,10 +78,10 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1792758084.5899115,
-    "seen": 1792799089.370461,
-    "ast_hash": "8e2784e3e48a2e88e35a7096ba8dc5d6",
-    "semantic_hash": "8e2784e3e48a2e88e35a7096ba8dc5d6"
+    "mtime": 1795078330.455535,
+    "seen": 1795079034.097376,
+    "ast_hash": "8208a545d52418a244e2326141630191",
+    "semantic_hash": ""
   },
   "AGENTS.md": {
     "mtime": 1793023758.0566242,
@@ -96,15 +96,21 @@
     "semantic_hash": ""
   },
   "ROADMAP.md": {
-    "mtime": 1795076410.1034546,
-    "seen": 1795076482.749247,
-    "ast_hash": "e88cd1661c110d53a8ea94d5fd4c924e",
+    "mtime": 1795078330.5496264,
+    "seen": 1795079034.097374,
+    "ast_hash": "46203fc6abf9540397b08c45f5e3ca61",
     "semantic_hash": ""
   },
   "assets/preview.png": {
-    "mtime": 1795052782.4938748,
-    "seen": 1795076482.74925,
-    "ast_hash": "f69b9e7d3fd8b48dc7eea54134df7fe1",
+    "mtime": 1795078833.5783396,
+    "seen": 1795079034.097377,
+    "ast_hash": "8c7521e1a54e3dc9ddbf01cab8e8b873",
+    "semantic_hash": ""
+  },
+  ".impeccable/config.json": {
+    "mtime": 1795076738.873914,
+    "seen": 1795079034.097358,
+    "ast_hash": "81a8a18969423437331ae3a684f19614",
     "semantic_hash": ""
   }
 }

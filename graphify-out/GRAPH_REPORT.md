@@ -1,17 +1,17 @@
 # Graph Report - Deutsch-Studieren  (2026-11-19)
 
 ## Corpus Check
-- 16 files · ~32,524 words
+- 17 files · ~32,568 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 3, .css 1)
 
 ## Summary
-- 128 nodes · 138 edges · 14 communities (11 shown, 3 thin omitted)
+- 127 nodes · 137 edges · 14 communities (11 shown, 3 thin omitted)
 - Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6f5164ce`
+- Built from commit: `d84ece92`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,13 +32,13 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `init()` - 8 edges
-2. `Roadmap` - 6 edges
-3. `German vocabulary practice` - 6 edges
-4. `German Word Practice page` - 6 edges
+2. `German vocabulary practice` - 6 edges
+3. `German Word Practice page` - 6 edges
+4. `Roadmap` - 5 edges
 5. `Online topic-based vocabulary` - 5 edges
-6. `fetchOnlineVocabulary()` - 4 edges
-7. `handleStart()` - 4 edges
-8. `newWord()` - 4 edges
+6. `handleStart()` - 4 edges
+7. `newWord()` - 4 edges
+8. `fetchOnlineVocabulary()` - 4 edges
 9. `Q: How should DeutschStudieren's architecture and graph cover its full learning journey, state, external services, and deployment?` - 4 edges
 10. `steps` - 4 edges
 
@@ -88,8 +88,8 @@ Cohesion: 0.47
 Nodes (4): getSRSWeight(), saveSRSData(), selectWordWithSRS(), updateSRS()
 
 ### Community 7 - "Roadmap"
-Cohesion: 0.29
-Nodes (6): Direction, Later, Next, Not planned, Now, Roadmap
+Cohesion: 0.33
+Nodes (5): Direction, Next, Not planned, Now, Roadmap
 
 ### Community 8 - "Multiple Choice Mode"
 Cohesion: 0.83
@@ -105,7 +105,7 @@ Nodes (4): Answer, Outcome, Q: How should DeutschStudieren's architecture and gr
 
 ## Knowledge Gaps
 - **4 isolated node(s):** `Accuracy, answer count, and streak display`, `Datamuse related-word service`, `MyMemory translation service`, `Performance-weighted spaced repetition`
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 67 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 66 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
