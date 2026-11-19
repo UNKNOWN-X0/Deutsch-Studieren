@@ -72,6 +72,12 @@ assets/preview.png                          Screenshot for this README
 
 The app uses classic browser scripts. Keep the script order in `index.html` when changing module files.
 
+## Project documents
+
+| File | What it covers |
+| --- | --- |
+| [ROADMAP.md](ROADMAP.md) | What is planned next, with an issue per item |
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
