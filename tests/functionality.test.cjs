@@ -106,3 +106,25 @@ for (const answer of ["thick", "fat", "thick/fat"]) {
     assert.equal(vm.runInContext("correctCount", c), 1);
   });
 }
+
+for (const [answer, ok] of [["5", 1], ["five", 1], ["6", 0]]) {
+  test(`numbers accept digits: ${answer} for fünf counts ${ok}`, () => {
+    const { c } = de();
+    vm.runInContext('current={word_de:"fünf",value:5,word_en:"five",category:"numbers"}', c);
+    c.answerInput.value = answer;
+    c.handleSubmit();
+    assert.equal(vm.runInContext("correctCount", c), ok);
+  });
+}
+
+test("every cardinal in the Numbers category carries its digit value", () => {
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(fs.readFileSync(base + "words.js", "utf8"), ctx);
+  const byWord = Object.fromEntries(ctx.window.GERMAN_WORDS.filter((w) => w.category === "numbers").map((w) => [w.word_de, w.value]));
+  assert.equal(byWord["eins"], 1);
+  assert.equal(byWord["einundzwanzig"], 21);
+  assert.equal(byWord["tausend"], 1000);
+  assert.equal(byWord["die Null"], 0);
+  assert.equal(byWord["die Hälfte"], undefined);
+});

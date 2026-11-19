@@ -15,6 +15,9 @@ function handleSubmit() {
       correctAnswers.push(current.forms.plural.toLowerCase());
   }
 
+  // Numbers can be answered in digits too; the feedback still shows the word.
+  if (typeof current.value === "number") correctAnswers.push(String(current.value));
+
   correctAnswers = [
     ...new Set(
       correctAnswers.flatMap((answer) =>

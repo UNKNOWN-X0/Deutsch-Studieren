@@ -7512,6 +7512,7 @@ window.GERMAN_WORDS = [
 
   // NUMBERS (50+ words) - Now including 1-100 and common number words
   {
+    value: 1,
     word_de: "eins",
     forms: { plural: null },
     word_en: "one",
@@ -7519,6 +7520,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 2,
     word_de: "zwei",
     forms: { plural: null },
     word_en: "two",
@@ -7526,6 +7528,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 3,
     word_de: "drei",
     forms: { plural: null },
     word_en: "three",
@@ -7533,6 +7536,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 4,
     word_de: "vier",
     forms: { plural: null },
     word_en: "four",
@@ -7540,6 +7544,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 5,
     word_de: "fünf",
     forms: { plural: null },
     word_en: "five",
@@ -7547,6 +7552,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 6,
     word_de: "sechs",
     forms: { plural: null },
     word_en: "six",
@@ -7554,6 +7560,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 7,
     word_de: "sieben",
     forms: { plural: null },
     word_en: "seven",
@@ -7561,6 +7568,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 8,
     word_de: "acht",
     forms: { plural: null },
     word_en: "eight",
@@ -7568,6 +7576,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 9,
     word_de: "neun",
     forms: { plural: null },
     word_en: "nine",
@@ -7575,6 +7584,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 10,
     word_de: "zehn",
     forms: { plural: null },
     word_en: "ten",
@@ -7582,6 +7592,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 11,
     word_de: "elf",
     forms: { plural: null },
     word_en: "eleven",
@@ -7589,6 +7600,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 12,
     word_de: "zwölf",
     forms: { plural: null },
     word_en: "twelve",
@@ -7596,6 +7608,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 13,
     word_de: "dreizehn",
     forms: { plural: null },
     word_en: "thirteen",
@@ -7603,6 +7616,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 14,
     word_de: "vierzehn",
     forms: { plural: null },
     word_en: "fourteen",
@@ -7610,6 +7624,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 15,
     word_de: "fünfzehn",
     forms: { plural: null },
     word_en: "fifteen",
@@ -7617,6 +7632,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 16,
     word_de: "sechzehn",
     forms: { plural: null },
     word_en: "sixteen",
@@ -7624,6 +7640,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 17,
     word_de: "siebzehn",
     forms: { plural: null },
     word_en: "seventeen",
@@ -7631,6 +7648,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 18,
     word_de: "achtzehn",
     forms: { plural: null },
     word_en: "eighteen",
@@ -7638,6 +7656,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 19,
     word_de: "neunzehn",
     forms: { plural: null },
     word_en: "nineteen",
@@ -7645,6 +7664,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 20,
     word_de: "zwanzig",
     forms: { plural: null },
     word_en: "twenty",
@@ -7652,6 +7672,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 21,
     word_de: "einundzwanzig",
     forms: { plural: null },
     word_en: "twenty-one",
@@ -7659,6 +7680,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 22,
     word_de: "zweiundzwanzig",
     forms: { plural: null },
     word_en: "twenty-two",
@@ -7666,6 +7688,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 23,
     word_de: "dreiundzwanzig",
     forms: { plural: null },
     word_en: "twenty-three",
@@ -7673,6 +7696,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 24,
     word_de: "vierundzwanzig",
     forms: { plural: null },
     word_en: "twenty-four",
@@ -7680,6 +7704,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 25,
     word_de: "fünfundzwanzig",
     forms: { plural: null },
     word_en: "twenty-five",
@@ -7687,6 +7712,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 26,
     word_de: "sechsundzwanzig",
     forms: { plural: null },
     word_en: "twenty-six",
@@ -7694,6 +7720,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 27,
     word_de: "siebenundzwanzig",
     forms: { plural: null },
     word_en: "twenty-seven",
@@ -7701,6 +7728,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 28,
     word_de: "achtundzwanzig",
     forms: { plural: null },
     word_en: "twenty-eight",
@@ -7708,6 +7736,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 29,
     word_de: "neunundzwanzig",
     forms: { plural: null },
     word_en: "twenty-nine",
@@ -7715,6 +7744,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 30,
     word_de: "dreißig",
     forms: { plural: null },
     word_en: "thirty",
@@ -7722,6 +7752,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 40,
     word_de: "vierzig",
     forms: { plural: null },
     word_en: "forty",
@@ -7729,6 +7760,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 50,
     word_de: "fünfzig",
     forms: { plural: null },
     word_en: "fifty",
@@ -7736,6 +7768,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 60,
     word_de: "sechzig",
     forms: { plural: null },
     word_en: "sixty",
@@ -7743,6 +7776,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 70,
     word_de: "siebzig",
     forms: { plural: null },
     word_en: "seventy",
@@ -7750,6 +7784,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 80,
     word_de: "achtzig",
     forms: { plural: null },
     word_en: "eighty",
@@ -7757,6 +7792,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 90,
     word_de: "neunzig",
     forms: { plural: null },
     word_en: "ninety",
@@ -7764,6 +7800,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 100,
     word_de: "hundert",
     forms: { plural: null },
     word_en: "one hundred",
@@ -7771,6 +7808,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 1000,
     word_de: "tausend",
     forms: { plural: null },
     word_en: "one thousand",
@@ -7806,6 +7844,7 @@ window.GERMAN_WORDS = [
     category: "numbers",
   },
   {
+    value: 0,
     word_de: "die Null",
     forms: { plural: "die Nullen" },
     word_en: "zero",
