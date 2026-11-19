@@ -16,9 +16,6 @@ A quick, free vocabulary trainer that runs in any browser with no account: pract
 
 **Tests in CI** (stated 2026-11-19, [#10](https://github.com/UNKNOWN-X0/Deutsch-Studieren/issues/10)). The workflow builds Jekyll and never runs the tests.
 
-## Later
-
-**One product name** (stated 2026-11-19, [#11](https://github.com/UNKNOWN-X0/Deutsch-Studieren/issues/11)). The app says "German Practice", the repository "Deutsch Studieren".
 
 ## Not planned
 
