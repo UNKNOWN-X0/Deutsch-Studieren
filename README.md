@@ -9,6 +9,8 @@ A browser-based German vocabulary trainer with typed answers, multiple choice, m
 
 **[Open Deutsch Studieren →](https://unknown-x0.github.io/Deutsch-Studieren/)**
 
+![Deutsch Studieren](assets/preview.png)
+
 ## Features
 
 - **Two directions:** practice German-to-English or English-to-German.
@@ -65,6 +67,7 @@ js/multiple-choice.js, js/matching.js       Practice mode behavior
 js/spaced-repetition.js                     Word weights and local progress storage
 js/vocabulary-api.js                        Topic search and translation requests
 tests/                                      Functionality regression tests
+assets/preview.png                          Screenshot for this README
 ```
 
 The app uses classic browser scripts. Keep the script order in `index.html` when changing module files.
