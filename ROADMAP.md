@@ -12,7 +12,7 @@ A quick, free vocabulary trainer that runs in any browser with no account: pract
 
 ## Next
 
-**How articles count for nouns** (stated 2026-11-19, [#9](https://github.com/UNKNOWN-X0/Deutsch-Studieren/issues/9)). The noun without its article is marked wrong with no hint; waits on a decision between strict, lenient, and a gender mode.
+**How articles count for nouns** (stated 2026-11-19, [#9](https://github.com/UNKNOWN-X0/Deutsch-Studieren/issues/9)). The noun alone will count, with the article shown in the feedback, and a separate der/die/das mode will practise genders.
 
 **Tests in CI** (stated 2026-11-19, [#10](https://github.com/UNKNOWN-X0/Deutsch-Studieren/issues/10)). The workflow builds Jekyll and never runs the tests.
 
